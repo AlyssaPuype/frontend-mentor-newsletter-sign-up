@@ -1,0 +1,97 @@
+@import url('globals.css');
+
+body{
+    height: 100vh;
+    background-color: var(--pale-navy);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 928px;
+    height: 641px;
+    background-color: var(--white);
+    border-radius: 36px;
+}
+
+
+.image img{
+    height: 593px;
+    width: auto;
+    border-radius: 26px;
+
+}
+
+.content{
+    width: 376px;
+    height: 446px;
+}
+
+.content .texts{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.content .title{
+    font-size: 56px;
+}
+
+.content .sub-title{
+    margin: 0;
+    padding: 0;
+}
+
+.content .check-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.content .list-item{
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+.content .form{
+    margin-top: 40px;
+}
+
+.content .form .form-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.content .form .form-container label{
+    margin-bottom: 0;
+    font-family: 'Roboto-Bold', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.content .form .form-container input{
+    height: 56px;
+    margin-top: 8px;
+    padding: 16px 24px;
+}
+
+
+.content .form .form-container button{
+    background-color: var(--dark-navy);
+    color: var(--white);
+    font-family: 'Roboto-Bold', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    height: 56px;
+    margin-top: 24px;
+}
+
+.content .form .form-container button:hover{
+    cursor: pointer;
+}

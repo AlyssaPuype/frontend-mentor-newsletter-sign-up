@@ -1,0 +1,41 @@
+:root{
+    --white: #FFFFFF;
+    --grey-25: #19182B;
+    --pale-navy:#36384D;
+    --dark-navy:#242742;
+    --vermellion:#FF6155;
+    --gradient-vermellion:linear-gradient(45deg,#FF6A3A, #FF527B);
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../assets/fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../assets/fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto-Regular', Arial, Helvetica, sans-serif;
+    color: var(--dark-navy);
+    margin: 0;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Roboto-Bold', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+p{
+    font-size: 16px;
+}
+
